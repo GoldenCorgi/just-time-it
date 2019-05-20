@@ -68,7 +68,7 @@ Python3.6+. Have anything older than Python3.6? You're either working corporate 
 pip install just-time-it
 ```
 
-## Quickstart/Documentation
+## Documentation
 
 Lets define a example function
 
