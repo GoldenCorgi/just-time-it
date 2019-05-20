@@ -151,7 +151,6 @@ print(result)
 >>> Time Taken for multiply(x,y): 1.0940176924541224e-06 . Repeated 1 time(s).
 ```
 
-
 ## Technology
 
 JustTimeit.py uses Object-Oriented, Dynamic Programming, Augmented Reality, Machine Learning, Artificial Neural Networks, GPT-2 and my Big Data to ensure you save that 3 seconds.
@@ -191,7 +190,7 @@ This code is not accurate. Any function you are testing that is under 0.1 second
 def multiply(x,y):
     for d in range(10000000):
         xy = d*x*y
-    return None 
+    return None
 ```
 
 ### Normal time.time()
