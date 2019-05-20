@@ -26,7 +26,7 @@ class TestStringMethods(unittest.TestCase):
     def test_resultr1(self):
         # Should be time taken
         assert type(timefunc("multiply(5,6)",returnr=1)) == float
-    def test_resultr1(self):
+    def test_resultr2(self):
         # Should be time taken and result
         a = timefunc("multiply(5,6)",returnr=2)
         assert type(a) == tuple
