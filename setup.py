@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="just-time-it",
-    version="0.0.1",
+    version="0.1.2",
     author="GoldenCorgi",
     description="The fuss-free way to time functions",
     long_description=long_description,
