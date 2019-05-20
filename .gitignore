@@ -1,0 +1,5 @@
+build/
+dist/
+eggs/
+testtimefunc1.egg-info/
+__pycache__/
