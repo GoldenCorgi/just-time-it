@@ -6,12 +6,23 @@
 
 
 <p align="center">
-  <img src="https://i.imgur.com/ZfWvt1w.jpg" alt="cat"/>
+  <img style="width: 50%; height: 50%" src="https://i.imgur.com/ZfWvt1w.jpg" alt="cat"/>
 </p>
 
 Don't have enough dependencies with poor documentation in your projects? Have an undying desire for more broken code for important functions? Eat cereal with water? Or just an all-round masochist? (Just kidding, we're all programmers, we're all masochists)
 
 Boy, do I have the solution for you.
+
+## Quickstart
+
+```python
+from timefunctions import timefunc
+result = timefunc("yourfunction(yourvariables)",globals=globals()) # Only include globals() if you have variables
+```
+
+```python
+>>> Time Taken for yourfunction: 1.0940176924541224e-06 . Repeated 1 time(s).
+```
 
 ## Hurt me harder daddy
 
