@@ -43,7 +43,7 @@ def inner(_it, _timer{init}):
     # ! this code is the longest time taken in the entire function, anywhere from 0 to 0.004 seconds.
     filename = inspect.getfile(inspect.currentframe().f_back)
     #filename = inspect.stack(0)[1][1] # Alternate slower version
-
+    print(filename)
     # Next line changes it to windows path format
     # no clue if this works on MacOS or Linux.
     # If you're on MacOS, just hire a better developer with your wealth 
