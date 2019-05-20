@@ -2,7 +2,6 @@ language: python
 python:
   - 'nightly'
   - '3.6'
-  - '3.8-dev'
 
 matrix:
   include:

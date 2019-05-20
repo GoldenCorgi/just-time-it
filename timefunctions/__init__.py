@@ -55,7 +55,7 @@ def inner(_it, _timer{init}):
         path = filename[0]
         if '/' not in path:
             filename = filename[0][:-3]
-            timetaken = timeit.timeit(stmt=stmt, setup=f"from {filename} import {funcname}",number=number,globals=globals)
+            timetaken = timeit.timeit(stmt=stmt, setup=f"""from {filename} import {funcname}""",number=number,globals=globals)
         else:
             filename = filename[1][:-3]
             timetaken = timeit.timeit(stmt=stmt, setup=f"""import sys\nsys.path.append('{path}')\nfrom {filename} import {funcname}""",number=number,globals=globals)
