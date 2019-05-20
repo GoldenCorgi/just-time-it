@@ -2,9 +2,9 @@
 
 ---
 
-[![License](https://img.shields.io/badge/license-GLWT-green.svg)](https://github.com/goldencorgi/justtimeit/LICENSE) [![Coverage Status](https://coveralls.io/repos/github/GoldenCorgi/just-time-it/badge.svg?branch=master)](https://coveralls.io/github/GoldenCorgi/just-time-it?branch=master) [![Build Status](https://travis-ci.com/GoldenCorgi/just-time-it.svg?branch=master)](https://travis-ci.com/GoldenCorgi/just-time-it)
+[![License](https://img.shields.io/badge/license-GLWT-green.svg)](https://github.com/goldencorgi/justtimeit/LICENSE) [![Coverage Status](https://coveralls.io/repos/github/GoldenCorgi/just-time-it/badge.svg?branch=master)](https://coveralls.io/github/GoldenCorgi/just-time-it?branch=master) [![Build Status](https://travis-ci.com/GoldenCorgi/just-time-it.svg?branch=master)](https://travis-ci.com/GoldenCorgi/just-time-it) [![File Size](https://img.shields.io/github/languages/code-size/GoldenCorgi/just-time-it.svg)](https://github.com/GoldenCorgi/just-time-it) [![My Looks](https://img.shields.io/badge/handsome-100%25-blue.svg)](https://www.google.com/search?q=park+hyung+sik) [![Python Version](https://img.shields.io/badge/python-3.6%20%7C%203.7-blue.svg)](https://github.com/GoldenCorgi/just-time-it)
 
-Don't have enough dependencies with poor documentation in your projects? Have an undying desire for more degenerate code for important functions? Eat cereal with water? Or just an all-round masochist? (Just kidding, we're all programmers, we're all masochists.)
+Don't have enough dependencies with poor documentation in your projects? Have an undying desire for more degenerate code for important functions? Eat cereal with water? Or just an all-round masochist? (Just kidding, we're all programmers, we're all masochists)
 
 Boy, do I have the solution for you.
 
@@ -29,7 +29,7 @@ result = timefunc("yourfunction()")
 
 Ironman can't save Spiderman in Infinity War but you can save that 3 seconds.
 
-Now you can go spend more time learning Tensorflow for that very interesting python uncensoring project. 
+Now you can go spend more time learning Tensorflow for that interesting python uncensoring project.
 
 ## Requirements
 
