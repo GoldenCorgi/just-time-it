@@ -149,6 +149,8 @@ JustTimeit.py uses Object-Oriented, Dynamic Programming, Augmented Reality, Mach
 
 good joke
 
+
+
 ## Support
 
 For Technical Issues: www.stackoverflow.com
@@ -168,6 +170,45 @@ I'll put this entire file through an OwO generator if you try
 > I'm a born masochist, I still use Python2.3. Will there be support for Python3.5 or other earlier depreciated versions?
 
 If I wanted to torture myself with compatibility issues, I might as well go into the dating scene.
+
+## Caveats/Warnings (Serious)
+
+This code is not accurate. Any function you are testing that is under 0.1 seconds should NOT rely on this package. A normal function that executes for around 0.9 seconds will look like this under different code
+
+### Example slow code
+
+```python
+# Around 0.9 seconds to run
+def multiply(x,y):
+    for d in range(10000000):
+        xy = d*x*y
+    return None 
+```
+
+### Normal time.time()
+
+```python
+starttime = time.time()
+multiply(3,7)
+print("time.time()",(time.time()-starttime))
+>>> time.time() 0.8946394920349121
+```
+
+### timeit with setup
+
+```python
+print("timesetup",timeit.timeit("multiply(3,7)",setup="from /__main__ import multiply",number=ss))
+>>> timesetup 0.9034562206940011
+```
+
+### timefunc (this package)
+
+```python
+timefunc("multiply(3,7)")
+>>> Time Taken for multiply: 0.84726418995648 . Repeated 1 time(s).
+```
+
+They are roughly similar with a maximum of 0.1 differences. You can try altering range(10000000) to see the differences in the code.
 
 ## License
 
