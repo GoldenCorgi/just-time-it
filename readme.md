@@ -2,9 +2,9 @@
 
 ---
 
-[![License](https://img.shields.io/badge/license-GLWT-green.svg)](https://github.com/goldencorgi/justtimeit/LICENSE) [![Coverage Status](https://coveralls.io/repos/github/GoldenCorgi/just-time-it/badge.svg?branch=master)](https://coveralls.io/github/GoldenCorgi/just-time-it?branch=master) [![Build Status](https://travis-ci.com/GoldenCorgi/just-time-it.svg?branch=master)](https://travis-ci.com/GoldenCorgi/just-time-it) [![File Size](https://img.shields.io/github/languages/code-size/GoldenCorgi/just-time-it.svg)](https://github.com/GoldenCorgi/just-time-it) [![My Looks](https://img.shields.io/badge/handsome-100%25-blue.svg)](https://www.google.com/search?q=park+hyung+sik) [![Python Version](https://img.shields.io/badge/python-3.6%20%7C%203.7-blue.svg)](https://github.com/GoldenCorgi/just-time-it)
+[![License](https://img.shields.io/badge/license-GLWT-green.svg)](https://github.com/goldencorgi/justtimeit/LICENSE) [![Coverage Status](https://coveralls.io/repos/github/GoldenCorgi/just-time-it/badge.svg?branch=master)](https://coveralls.io/github/GoldenCorgi/just-time-it?branch=master) [![Build Status](https://travis-ci.com/GoldenCorgi/just-time-it.svg?branch=master)](https://travis-ci.com/GoldenCorgi/just-time-it) [![GitHub file size in bytes](https://img.shields.io/github/size/GoldenCorgi/just-time-it/timefunctions/__init__.py.svg)](https://github.com/GoldenCorgi/just-time-it/blob/master/timefunctions/__init__.py) [![Python Version](https://img.shields.io/badge/python-3.6%20%7C%203.7-blue.svg)](https://github.com/GoldenCorgi/just-time-it) ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen.svg) [![My Looks](https://img.shields.io/badge/handsome-100%25-blue.svg)](https://www.google.com/search?q=park+hyung+sik) ![OwO](https://img.shields.io/badge/OwO-what's%20this-blueviolet.svg)
 
-Don't have enough dependencies with poor documentation in your projects? Have an undying desire for more degenerate code for important functions? Eat cereal with water? Or just an all-round masochist? (Just kidding, we're all programmers, we're all masochists)
+Don't have enough dependencies with poor documentation in your projects(i.e. think NodeJS is a joke)? Have an undying desire for more degenerate code for important functions? Eat cereal with water? Or just an all-round masochist? (Just kidding, we're all programmers, we're all masochists)
 
 Boy, do I have the solution for you.
 
@@ -13,8 +13,18 @@ Boy, do I have the solution for you.
 Too lazy to wrap your functions with
 
 ```python
+import time
 starttime = time.time()
-result = yourfunction()
+def shakyRelationship(Wallet):
+    while True:
+        if Wallet == "empty":
+            break
+        elif Wallet == "thicc":
+            # stop lying to yourself
+            break
+    return "big sad"
+YourWallet = "empty"
+result = shakyRelationship(YourWallet)
 print(time.time()-starttime)
 >>> 1.0940176924541224e-06
 ```
@@ -23,17 +33,18 @@ Now you can wrap it like this
 
 ``` python
 from timefunctions import timefunc
-result = timefunc("yourfunction()")
+MyWallet = "thicc"
+result = timefunc("shakyRelationship(MyWallet)",globals=globals()) # Only include globals() if you have variables
 >>> Time Taken for yourfunction: 1.0940176924541224e-06 . Repeated 1 time(s).
 ```
 
-Ironman can't save Spiderman in Infinity War but you can save that 3 seconds.
+This package can't save your relationships but it can save you that 3 seconds.
 
 Now you can go spend more time learning Tensorflow for that interesting python uncensoring project.
 
 ## Requirements
 
-Python3.6+. Have anything older than Python3.6? You're either working corporate (see: FAQ) or a masochist (see: Support/Personal Issues)
+Python3.6+. Have anything older than Python3.6? You're either working corporate (see: [FAQ](#FAQ)) or a masochist (see: [Support/Personal Issues](#Support))
 
 ## Installation
 
@@ -148,8 +159,6 @@ JustTimeit.py uses Object-Oriented, Dynamic Programming, Augmented Reality, Mach
 ## Testing
 
 good joke
-
-
 
 ## Support
 
