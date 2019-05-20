@@ -2,7 +2,7 @@
 
 ---
 
-[![License](https://img.shields.io/badge/license-GLWT-green.svg)](https://github.com/goldencorgi/justtimeit/LICENSE)
+[![License](https://img.shields.io/badge/license-GLWT-green.svg)](https://github.com/goldencorgi/justtimeit/LICENSE) [![Coverage Status](https://coveralls.io/repos/github/GoldenCorgi/just-time-it/badge.svg?branch=master)](https://coveralls.io/github/GoldenCorgi/just-time-it?branch=master) [![Build Status](https://travis-ci.com/GoldenCorgi/just-time-it.svg?branch=master)](https://travis-ci.com/GoldenCorgi/just-time-it)
 
 Don't have enough dependencies with poor documentation in your projects? Have an undying desire for more degenerate code for important functions? Eat cereal with water? Or just an all-round masochist? (Just kidding, we're all programmers, we're all masochists.)
 
@@ -152,6 +152,7 @@ good joke
 ## Support
 
 For Technical Issues: www.stackoverflow.com
+
 For Personal Issues: Sounds like your own personal problem, let's keep it that way.
 
 ## FAQ
@@ -163,10 +164,6 @@ No, this is like the worst possible combination of words to ever grace this Eart
 > Can I change the README to be more professional?
 
 I'll put this entire file through an OwO generator if you try
-
-> nerd
-
-no u
 
 > I'm a born masochist, I still use Python2.3. Will there be support for Python3.5 or other earlier depreciated versions?
 

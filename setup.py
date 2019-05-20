@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="timing-functions",
-    version="0.0.5",
+    name="just-time-it",
+    version="0.0.1",
     author="GoldenCorgi",
     description="The fuss-free way to time functions",
     long_description=long_description,

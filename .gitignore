@@ -1,5 +1,5 @@
 build/
 dist/
 eggs/
-testtimefunc1.egg-info/
+justtimeit.egg-info/
 __pycache__/
