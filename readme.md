@@ -10,7 +10,7 @@ Boy, do I have the solution for you.
 
 ## Hurt me harder daddy
 
-Too lazy to wrap your functions with
+Too lazy to wrap your functions with this?
 
 ```python
 import time
