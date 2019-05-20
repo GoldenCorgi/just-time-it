@@ -14,10 +14,10 @@ matrix:
       before_install: choco install python
       env: PATH=/c/Python37:/c/Python37/Scripts:$PATH
 
-install: true
+install: 
+  - pip install python-coveralls
 script:
-  - python tests.py
+  - coverage run tests.py
 
 after_success:
-  - pip install python-coveralls
   - coveralls
