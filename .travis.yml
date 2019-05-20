@@ -19,4 +19,5 @@ script:
   - python tests.py
 
 after_success:
+  - pip install python-coveralls
   - coveralls
