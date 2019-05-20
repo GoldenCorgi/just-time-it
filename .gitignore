@@ -1,5 +1,5 @@
 build/
 dist/
 eggs/
-justtimeit.egg-info/
+just_time_it.egg-info/
 __pycache__/

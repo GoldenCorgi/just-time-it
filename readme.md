@@ -2,9 +2,9 @@
 
 ---
 
-[![License](https://img.shields.io/badge/license-GLWT-green.svg)](https://github.com/goldencorgi/justtimeit/LICENSE) [![Coverage Status](https://coveralls.io/repos/github/GoldenCorgi/just-time-it/badge.svg?branch=master)](https://coveralls.io/github/GoldenCorgi/just-time-it?branch=master) [![Build Status](https://travis-ci.com/GoldenCorgi/just-time-it.svg?branch=master)](https://travis-ci.com/GoldenCorgi/just-time-it) [![GitHub file size in bytes](https://img.shields.io/github/size/GoldenCorgi/just-time-it/timefunctions/__init__.py.svg)](https://github.com/GoldenCorgi/just-time-it/blob/master/timefunctions/__init__.py) [![Python Version](https://img.shields.io/badge/python-3.6%20%7C%203.7-blue.svg)](https://github.com/GoldenCorgi/just-time-it) ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen.svg) [![My Looks](https://img.shields.io/badge/handsome-100%25-blue.svg)](https://www.google.com/search?q=park+hyung+sik) ![OwO](https://img.shields.io/badge/OwO-what's%20this-blueviolet.svg)
+[![License](https://img.shields.io/badge/license-GLWT-green.svg)](https://github.com/goldencorgi/justtimeit/LICENSE) [![Coverage Status](https://coveralls.io/repos/github/GoldenCorgi/just-time-it/badge.svg?branch=master)](https://coveralls.io/github/GoldenCorgi/just-time-it?branch=master) [![Build Status](https://travis-ci.com/GoldenCorgi/just-time-it.svg?branch=master)](https://travis-ci.com/GoldenCorgi/just-time-it) [![GitHub file size in bytes](https://img.shields.io/github/size/GoldenCorgi/just-time-it/timefunctions/__init__.py.svg)](https://github.com/GoldenCorgi/just-time-it/blob/master/timefunctions/__init__.py) [![Python Version](https://img.shields.io/badge/python-3.6%20%7C%203.7-blue.svg)](https://github.com/GoldenCorgi/just-time-it) ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen.svg) [![My Looks](https://img.shields.io/badge/handsome-110%25-blue.svg)](https://www.google.com/search?q=park+hyung+sik) ![OwO](https://img.shields.io/badge/OwO-what's%20this-blueviolet.svg)
 
-Don't have enough dependencies with poor documentation in your projects(i.e. think NodeJS is a joke)? Have an undying desire for more degenerate code for important functions? Eat cereal with water? Or just an all-round masochist? (Just kidding, we're all programmers, we're all masochists)
+Don't have enough dependencies with poor documentation in your projects? Have an undying desire for more broken code for important functions? Eat cereal with water? Or just an all-round masochist? (Just kidding, we're all programmers, we're all masochists)
 
 Boy, do I have the solution for you.
 
@@ -49,7 +49,7 @@ Python3.6+. Have anything older than Python3.6? You're either working corporate 
 ## Installation
 
 ```python
-pip install justtimeit
+pip install just-time-it
 ```
 
 ## Quickstart/Documentation
