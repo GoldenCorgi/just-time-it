@@ -39,22 +39,26 @@ def inner(_it, _timer{init}):
     # Taking the function name out of the code given, e.g. function(), get function
     funcname = stmt.split("(")[0]
 
-    # ! Get the previous module that is calling the function. I previously used __main__ but it fails if you are calling from chained modules
-    # ! this code is the longest time taken in the entire function, anywhere from 0 to 0.004 seconds.
-    filename = inspect.getfile(inspect.currentframe().f_back)
-    #filename = inspect.stack(0)[1][1] # Alternate slower version
-    print(filename)
-    # Next line changes it to windows path format
-    # no clue if this works on MacOS or Linux.
-    # If you're on MacOS, just hire a better developer with your wealth 
-    # If you're on linux, you are the better developer.
-    if '\\' in filename:
-        filename=filename.replace('\\', "/")
-    filename=filename.rsplit('/', 1)
-    path = filename[0]
-    filename = filename[1][:-3]
     if setup == None:
-        timetaken = timeit.timeit(stmt=stmt, setup=f"import sys\nsys.path.append('{path}')\nfrom {filename} import {funcname}",number=number,globals=globals)
+        # ! Get the previous module that is calling the function. I previously used __main__ but it fails if you are calling from chained modules
+        # ! this code is the longest time taken in the entire function, anywhere from 0 to 0.004 seconds.
+        filename = inspect.getfile(inspect.currentframe().f_back)
+        #filename = inspect.stack(0)[1][1] # Alternate slower version
+        print(filename)
+        # Next line changes it to windows path format
+        # no clue if this works on MacOS or Linux.
+        # If you're on MacOS, just hire a better developer with your wealth 
+        # If you're on linux, you are the better developer.
+        if '\\' in filename:
+            filename=filename.replace('\\', "/")
+        filename=filename.rsplit('/', 1)
+        path = filename[0]
+        if '/' not in path:
+            filename = filename[0][:-3]
+            timetaken = timeit.timeit(stmt=stmt, setup=f"from {filename} import {funcname}",number=number,globals=globals)
+        else:
+            filename = filename[1][:-3]
+            timetaken = timeit.timeit(stmt=stmt, setup=f"""import sys\nsys.path.append('{path}')\nfrom {filename} import {funcname}""",number=number,globals=globals)
     else:
         timetaken = timeit.timeit(stmt=stmt, setup=setup,number=number,globals=globals)
     if printr==0:
