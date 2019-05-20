@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img style="width: 50%; height: 50%" src="https://i.imgur.com/ZfWvt1w.jpg" alt="cat"/>
+  <img height="100" src="https://i.imgur.com/ZfWvt1w.jpg" alt="cat"/>
 </p>
 
 Don't have enough dependencies with poor documentation in your projects? Have an undying desire for more broken code for important functions? Eat cereal with water? Or just an all-round masochist? (Just kidding, we're all programmers, we're all masochists)
@@ -51,7 +51,7 @@ Now you can wrap it like this
 from timefunctions import timefunc
 MyWallet = "thicc"
 result = timefunc("shakyRelationship(MyWallet)",globals=globals()) # Only include globals() if you have variables
->>> Time Taken for yourfunction: 1.0940176924541224e-06 . Repeated 1 time(s).
+>>> Time Taken for shakyRelationship: 1.0940176924541224e-06 . Repeated 1 time(s).
 ```
 
 This package can't save your relationships but it can save you that 3 seconds.
